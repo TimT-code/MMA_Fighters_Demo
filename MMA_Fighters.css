@@ -1,0 +1,85 @@
+body{overflow:hidden;background-color:black;background-position:700px 0;background-repeat: no-repeat;background-attachment:fixed;background-image:url('http://bhcourier.com/wp-content/uploads/2016/07/081214-UFC-General-view-of-the-Octagon-J2-PI.vresize.1200.675.high_.33.jpg')}
+
+button:disabled {
+    color:gray;
+    border-color:gray;
+}
+
+button:enabled {
+    color:initial;
+    border-color:initial;
+}
+
+.breakz{height:246px;width:553px;background-color:black;z-index:-3;position:relative;top:0px;left:82px;margin:0 0 4px 0;padding:0}
+
+.breakz2{height:351px;width:553px;background-color:black;z-index:-3;position:relative;top:0px;left:82px;margin:0;padding:0}
+
+.outer_wrapper{z-index:0;position:relative;background-image:url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT0wOPy09703SYYbwhyUfVWInRrafzsqhmsUkCLty6h5cXeZR_q');background-repeat:repeat-x;background-size:70% 100%;background-color:white;border:solid 8px gray;border-radius:20px;width:523px;height:auto;padding:12px 4px 6px 12px;margin:24px 0 24px 82px}
+
+.top_blind{background:linear-gradient(to bottom, rgba(255,255,255,1), rgba(0,0,0,1));background:-webkit-linear-gradient(to bottom, rgba(255,255,255,1), rgba(0,0,0,1));z-index:1;position:fixed;top:0px;left:90px;border:0;background-color:gray;width:555px;height:274px;opacity:0.30;filter:Alpha(opacity=30)}
+
+.fight_button{cursor:pointer;background-color:white;color:black;width:180px;height:30px;margin:10px;border:solid 2px}
+#prev_fighter_id{border-color:red}
+#next_fighter_id{border-color:green}
+#first_fighter_id{border-color:blue}
+#last_fighter_id{border-color:orange}
+#scroll_fighter_id{border-color:tan}
+#click_fighter_id{border-color:brown}
+
+#up_arrow_id{
+  position:absolute;
+  top:212px;
+  left:0px;
+}
+
+#dwn_arrow_id{
+  margin:8px 0 0 0;
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  filter: FlipV;
+  -ms-filter: "FlipV"
+}
+
+
+
+.btm_blind{margin:0 0 4px 0;z-index:1;position:fixed;top:482px;left:90px;border:0;background-color:gray;background:linear-gradient(to top, rgba(255,255,255,1), rgba(0,0,0,1));background:-webkit-linear-gradient(to top, rgba(255,255,255,1), rgba(0,0,0,1));width:555px;height:550px;opacity:0.30;filter:Alpha(opacity=30)}
+
+.pic_wrap{margin:0 auto;position:absolute;
+  top:50%;left:50%;transform: translate(-50%, -50%);width:225px;height:146px;border:solid 2px black;float:left}
+
+.outer_fighter_box{cursor:pointer;z-index:-1;width:220px;height:142px;background-color:gray;border:2px solid black;position:relative;padding:10px;display:inline-block}
+
+.outer_fighter_box:hover{border-color:red}
+
+.info_div{color:black;background-color:gray;border:solid black 6px;position:static;top:34px;left:280px;width:auto;height:142px;padding:6px;margin:0 10px 0 0;float:right}
+
+/*common css*/
+.real_name_div, .nick_name_div, .stats_div, .orgs_div, .wgt_class_div, .weight_height_div, .country_div{text-align:center;height:19px;display:block;padding:0 5px;border:solid 2px black}
+
+.real_name_div{color:black;background-color:papayawhip;width:220px}
+
+.nick_name_div{color:darkblue;background-color:silver;width:200px;margin:0 0 0 20px;border-top:0}
+
+.stats_div{color:gray;background-color:moccasin;width:180px;margin:0 0 0 40px;border-top:0}
+
+.orgs_div{color:black;background-color:tan;width:160px;margin:0 0 0 60px;border-top:0}
+
+.wgt_class_div{color:silver;background-color:brown;width:140px;margin:0 0 0 80px;border-top:0}
+
+.weight_height_div{color:white;background-color:darkblue;width:120px;margin:0 0 0 100px;border-top:0}
+
+.country_div{color:black;background-color:olive;width:100px;margin:0 0 0 120px;border-top:0}
+
+.coun_flag_img{position:relative;top:-42px;left:0;border:solid 1px black}
+
+#fighter_count_div{font-size:22px;background-color:silver;color:darkblue;border:solid 8px yellow;position:fixed;top:10px;left:750px;width:auto;height:auto;padding:8px}
+
+#column_pic_id_1{/*flip IMG horizontally*/-moz-transform: scaleX(-1);-o-transform: scaleX(-1);-webkit-transform:scaleX(-1);transform:scaleX(-1);filter:FlipH;-ms-filter:"FlipH";z-index:-1;position:fixed;top:-42px;left:0}
+
+#column_pic_id_2{z-index:-1;position:fixed;top:-42px;left:634px}
+
+iframe#response_iframe_id{position:fixed;top:500px;left:110px;z-index:0;text-align:center;width:488px;height:300px;display:none;background-color:black;border:7px solid black;margin:0}
+
+#response_img_id{border:0;display:none;margin:0}
